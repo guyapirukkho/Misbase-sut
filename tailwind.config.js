@@ -1,11 +1,12 @@
-module.exports = {
+export default {
   content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-    "./node_modules/tw-elements/dist/js/**/*.js"
+    './index.html',
+    './src/**/*.{js,ts,jsx,tsx}',
+    './node_modules/preline/**/*.js',
+    './node_modules/tw-elements/**/*.js'
   ],
   theme: {
     extend: {},
   },
-  plugins: [require("tw-elements/dist/plugin.cjs")]
+  plugins: [],
 }
